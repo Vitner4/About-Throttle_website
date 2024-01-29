@@ -22,9 +22,9 @@
 /*TODO:------------------------------------------------------------------------------*/
 
 
-.Main_Block{ /*! Главный Блок страницы !*/
+#Main_Block{ /*! Главный Блок страницы !*/
   width: 1000px;
-	height: 1100px;
+	height: 1700px;
   border-radius: 20px;
   padding-top: 8%;
   background: rgb(255, 255, 255);
@@ -33,7 +33,7 @@
   margin-inline: auto; 
 }
 
-.Bar_menu{ /*! Фиксированное Bar-меню сайта!*/
+#Bar_menu{ /*! Фиксированное Bar-меню сайта!*/
   
   width: 600px;
 	height: 35px;
@@ -48,18 +48,18 @@
   left: 0; 
   right: 0;
   
-}.Bar_menu:hover{ /*! Bar-меню: действие при наводке */
+}#Bar_menu:hover{ /*! Bar-меню: действие при наводке */
   background: rgba(28, 28, 28, 0.973);
 }
 
-.Text_Block_1{ /*! Блок текста №1 !*/
+#Text_Block_1{ /*! Блок текста №1 !*/
   height: 600px;
   width: 1000px;
   background-color: rgb(26, 25, 25);
   background-image:url('../Source/Img/Throttle_ForTextBlock_2.jpg');
   padding: auto; 
   margin-top: 15%;
-  /*Текст*/
+  /*Настройка Текста*/
   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   font-size:3ch;
   color: white;
@@ -67,7 +67,7 @@
   
 }
 
-.Throttle_logo{ /*! Лого Throttle !*/
+#Throttle_logo{ /*! Лого Throttle !*/
   height: 230px;
   width: 230px;
   border-radius: 50%;
@@ -80,11 +80,19 @@
    justify-content: center; 
    align-items: center;
 
-  }.Throttle_logo:hover{ /*! Лого Throttle: Дейстиве при наведении !*/
+  }#Throttle_logo:hover{ /*! Лого Throttle: Дейстиве при наведении !*/
   height: 232px;
   width: 232px;
   box-shadow: none;
   }
+
+#Rating_block{ /*! Блок Рейтинга популярных треков !*/
+  height: 600px;
+  width: 1000px;
+  background-color: rgb(255, 255, 255);
+  padding: auto; 
+  margin-top: 0%;
+}
 
   
 /*TODO:------------------------------------------------------------------------------*/
@@ -93,16 +101,16 @@
 
 
 .Throttle_Text_style{ /*! Имя автора (Throttle) !*/
-  /*Текст*/
+  /*Настройка Текста*/
   text-align: center;
-  background: linear-gradient(45deg, #925a06 33%, #f5ef50 66%, #f9f590);
+  background: linear-gradient(45deg, #f79707 33%, #f5ef50 66%, #f9f590);
   background-clip:inherit;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.Postscript_style{ /*! Стиль приписки !*/
+#Postscript_style{ /*! Стиль приписки !*/
   /*Блок*/
   margin-top: 1%;
   padding-top:1%;
@@ -112,13 +120,13 @@
   background: linear-gradient(to right, rgb(240, 173, 30), rgb(248, 218, 46));
   margin-inline: auto;
   box-shadow: 5px 5px 5px rgb(146, 135, 135);
-  /*Текст*/
+  /*Настройка Текста*/
   text-align: center;
   color: rgb(255, 255, 255);
   font-family: Arial, Helvetica, sans-serif;
 }
 
-.Postscript_style:hover{ /*! Стиль приписки: Дейстиве при наведении !*/
+#Postscript_style:hover{ /*! Стиль приписки: Дейстиве при наведении !*/
   background: linear-gradient(to right, rgb(217, 153, 13), rgb(193, 165, 7));
 }
 
@@ -144,6 +152,19 @@
 
 .Link_Style_1{ /*! Стиль для ссылки №1 !*/
   color: gold; 
+}
+
+#Rasting_Posts_style{
+  /*Настройка Текста*/
+  text-align: center;
+  margin-top: 5%;
+  background-color:None;
+  font-family: Arial, Helvetica, sans-serif;
+  /*Градиент*/
+  background: linear-gradient(45deg, #f051f0 33%, #D56C25 66%,#f3dc0f );
+  background-clip:inherit;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
   
 

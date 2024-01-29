@@ -11,15 +11,18 @@
 
 
 <body bgcolor="17, 17, 17">
-<!--Бар меню-->
-<div class="Bar_menu"></div>
+
+<!--Touch Bar menu-->
+<div id="Bar_menu"></div>
+
 <!--Основной блок сайта-->
-<div class="Main_Block">
+<div id="Main_Block">
     <h1 class="Throttle_Text_style">Throttle</h1>
-    <img class="Throttle_logo" src="./Source/Img/Throttle_Logo_1.jpg" alt="Здесь должна быть фотография Throttle">
-    <h4 class="Postscript_style"> Выдающийся DJ исполнитель 21 века </h4>
+    <img id="Throttle_logo" src="./Source/Img/Throttle_Logo_1.jpg" alt="Здесь должна быть фотография Throttle">
+    <h4 id="Postscript_style"> Выдающийся DJ исполнитель 21 века </h4>
+
     <!-- блок: Кто такой Throttle?--> 
-    <div class="Text_Block_1">
+    <div id="Text_Block_1">
         <br><h2 class="Posts_Style_1">Кто такой Throttle?</h2><br>
         <p class="Text_Style_1">
             <b>Роберт Майкл Бергин,</b> он же <b>Throttle</b>, молодой диджей-продюсер родом из Мельбурна (Австралия)  
@@ -32,6 +35,15 @@
         </p>
     </div>
 
+    <!--Рейтинг популярных треков-->
+    <div id ="Rating_block">
+        <h2 id="Rasting_Posts_style">Рейтинг популярных тректов</h2>
+        <h2 id="Rasting_Posts_style" style="margin-top: 0%; font-size: 12px; ">
+            По статистике <b style="background: linear-gradient(45deg, #12bb29 33%, #18d657 66%,#3cbb01 ); background-clip:inherit; -webkit-background-clip: text; -webkit-text-fill-color: transparent;">
+            <a href="https://www.spotify.com">Spotify</a>
+            </b> 
+            за 2024 год</h2>
+    </div>
 </div>
 <!--Интеграция Js скрипта-->
 <script src="JavaScript/Main_Js.js"></script>
