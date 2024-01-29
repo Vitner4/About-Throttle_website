@@ -1,0 +1,168 @@
+/**(Главный Css файл проекта в котором указаны все стили)**/
+
+
+/*TODO:------------------------------------------------------------------------------*/
+/*TODO:-------------------------------Общие стили------------------------------------*/
+/*TODO:------------------------------------------------------------------------------*/
+
+
+*{ /*! общая настройка !*/
+  margin: 0; 
+  padding: 0;
+  /*
+  background-color: rgb(20, 20, 20);
+  background-image:url('https://mynizhyn.com/image/monati_4.jpeg');
+  background-size: cover;
+  */
+}
+
+
+/*TODO:------------------------------------------------------------------------------*/
+/*TODO:-------------------------------Стили Блоков-----------------------------------*/
+/*TODO:------------------------------------------------------------------------------*/
+
+
+.Main_Block{ /*! Главный Блок страницы !*/
+  width: 1000px;
+	height: 1100px;
+  border-radius: 20px;
+  padding-top: 8%;
+  background: rgb(255, 255, 255);
+  /*box-shadow: 5px 5px 5px rgb(135, 131, 131);*/
+  /*Выравнивание по середине*/
+  margin-inline: auto; 
+}
+
+.Bar_menu{ /*! Фиксированное Bar-меню сайта!*/
+  
+  width: 600px;
+	height: 35px;
+  border-radius: 20px;
+  background: rgba(28, 28, 28, 0.895);
+  /*Выравнивание по середине*/
+  margin-inline: auto; 
+  margin-top: 8px;
+  /*фиксация бар-меню*/
+  position: fixed; 
+  top: 0; 
+  left: 0; 
+  right: 0;
+  
+}.Bar_menu:hover{ /*! Bar-меню: действие при наводке */
+  background: rgba(28, 28, 28, 0.973);
+}
+
+.Text_Block_1{ /*! Блок текста №1 !*/
+  height: 600px;
+  width: 1000px;
+  background-color: rgb(26, 25, 25);
+  background-image:url('../Source/Img/Throttle_ForTextBlock_2.jpg');
+  padding: auto; 
+  margin-top: 15%;
+  /*Текст*/
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size:3ch;
+  color: white;
+  text-align:right;
+  
+}
+
+.Throttle_logo{ /*! Лого Throttle !*/
+  height: 230px;
+  width: 230px;
+  border-radius: 50%;
+  border: solid 5px;
+  border-color: rgb(250, 211, 103);
+  box-shadow: 5px 5px 5px rgb(159, 157, 157);
+  /*Выравнивание по середине*/
+   margin-inline: auto;
+   display: flex; 
+   justify-content: center; 
+   align-items: center;
+
+  }.Throttle_logo:hover{ /*! Лого Throttle: Дейстиве при наведении !*/
+  height: 232px;
+  width: 232px;
+  box-shadow: none;
+  }
+
+  
+/*TODO:------------------------------------------------------------------------------*/
+/*TODO:-------------------------------Стили текста-----------------------------------*/
+/*TODO:------------------------------------------------------------------------------*/
+
+
+.Throttle_Text_style{ /*! Имя автора (Throttle) !*/
+  /*Текст*/
+  text-align: center;
+  background: linear-gradient(45deg, #925a06 33%, #f5ef50 66%, #f9f590);
+  background-clip:inherit;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.Postscript_style{ /*! Стиль приписки !*/
+  /*Блок*/
+  margin-top: 1%;
+  padding-top:1%;
+  border-radius: 50px;
+  height: 25px;
+  width: 400px;
+  background: linear-gradient(to right, rgb(240, 173, 30), rgb(248, 218, 46));
+  margin-inline: auto;
+  box-shadow: 5px 5px 5px rgb(146, 135, 135);
+  /*Текст*/
+  text-align: center;
+  color: rgb(255, 255, 255);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.Postscript_style:hover{ /*! Стиль приписки: Дейстиве при наведении !*/
+  background: linear-gradient(to right, rgb(217, 153, 13), rgb(193, 165, 7));
+}
+
+.Text_Style_1{ /*! Стиль для блочного текста №1 !*/
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size:20px;
+  line-height:1.5;
+  /*Выравнивание по левому краю*/
+  margin-left: 48%; 
+  text-align: left;
+  width: 500px;
+  height:200px;
+}
+
+.Posts_Style_1{ /*! Стиль для блочного заголовка №1 !*/
+  color: white;
+  background-color:None;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-right: 11%;
+  
+}
+
+.Link_Style_1{ /*! Стиль для ссылки №1 !*/
+  color: gold; 
+}
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
