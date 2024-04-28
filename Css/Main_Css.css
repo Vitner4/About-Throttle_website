@@ -25,7 +25,7 @@
 #Main_Block{ /*! Главный Блок страницы !*/
   width: 1000px;
 	height: 1700px;
-  border-radius: 20px;
+  border-radius: 50px;
   padding-top: 8%;
   background: rgb(255, 255, 255);
   /*box-shadow: 5px 5px 5px rgb(135, 131, 131);*/
@@ -34,7 +34,6 @@
 }
 
 #Bar_menu{ /*! Фиксированное Bar-меню сайта!*/
-  
   width: 600px;
 	height: 35px;
   border-radius: 20px;
@@ -87,14 +86,67 @@
   }
 
 #Rating_block{ /*! Блок Рейтинга популярных треков !*/
-  height: 600px;
+  height: 1600px;
   width: 1000px;
   background-color: rgb(255, 255, 255);
   padding: auto; 
   margin-top: 0%;
 }
 
+#rating_music_photo{ /*! Фото трека в музыкальном рейтинге !*/
+  width: 150px;
+  height: 150px;
+  border-radius: 5%;
+  margin-left: -31%;
+  margin-top: -17%;
+}#rating_music_photo:hover{
+  width: 153px;
+  height: 153px;
+  box-shadow: 5px 5px 5px rgba(159, 157, 157, 0.548); 
+}
+
+.End_block{ /*! Конечный блок !*/
+  /*Блок*/
+  width: 1000px;
+  height: 300px;
+  background-color: rgb(19, 18, 18);
+  border-radius: 0px 0px 50px 50px;
+  /*Текст*/
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #e9e9e9;
+  font-size: 15px;
+}
+/*TODO:------------------------------------------------------------------------------*/
+/*TODO:-------------------------------Стили Фигур------------------------------------*/
+/*TODO:------------------------------------------------------------------------------*/
   
+
+#Rating-line{  /*! Рейтинговая линия !*/
+  margin-left: auto;
+  margin-right: auto;
+  height: 9px;
+  width: 50%;
+  border-radius: 50px;
+  background: rgba(160, 29, 142, 0.322);
+}#Rating-line::before{
+  content: " ";
+  display: block;
+  width: 100%;
+  height: 100%;
+  border-radius: 50px;
+  background: linear-gradient(45deg, #ff75e8 33%, 66%,#ffe367 );
+  font-family:"Fira Sans", sans-serif; 
+}
+
+#X_Line{ /*! Перегородочная линия (разделитель) !*/
+  width: 80%;
+  height: 7px;
+  margin: auto;
+  border-radius: 100px;
+  background-color: #e9e9e9;
+}
+
+
 /*TODO:------------------------------------------------------------------------------*/
 /*TODO:-------------------------------Стили текста-----------------------------------*/
 /*TODO:------------------------------------------------------------------------------*/
@@ -124,11 +176,10 @@
   text-align: center;
   color: rgb(255, 255, 255);
   font-family: Arial, Helvetica, sans-serif;
-}
 
-#Postscript_style:hover{ /*! Стиль приписки: Дейстиве при наведении !*/
-  background: linear-gradient(to right, rgb(217, 153, 13), rgb(193, 165, 7));
-}
+  }#Postscript_style:hover{ /*! Стиль приписки: Дейстиве при наведении !*/
+    background: linear-gradient(to right, rgb(217, 153, 13), rgb(193, 165, 7));
+  }
 
 .Text_Style_1{ /*! Стиль для блочного текста №1 !*/
   color: white;
@@ -152,21 +203,31 @@
 
 .Link_Style_1{ /*! Стиль для ссылки №1 !*/
   color: gold; 
+  text-decoration:none;
 }
 
-#Rasting_Posts_style{ /*! Стиль для заголовка блока Рейтинг треков !*/
+#Rating_Posts_style{ /*! Стиль текста Блока рейтинг популярных треков !*/
   /*Настройка Текста*/
   text-align: center;
-  margin-top: 5%;
+  margin-top: 7%;
   background-color:None;
   font-family: Arial, Helvetica, sans-serif;
+  font-size: 33px;
   /*Градиент*/
   background: linear-gradient(45deg, #f051f0 33%, #D56C25 66%,#f3dc0f );
   background-clip:inherit;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-  
+
+#Rating-Text-style{ /*! Стиль текста блока рейтинг!*/
+  font-family:"Fira Sans", sans-serif; 
+  color:#384b52;
+  font-size: 16px;
+  margin-left: 25.5%; /* 0,5 */
+  margin-bottom: auto;
+}
+
 
 
 
